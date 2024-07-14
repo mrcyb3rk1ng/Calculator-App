@@ -1,0 +1,102 @@
+body {
+    font-size: 18pt;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    background-color: #CCCEDA;
+    font-family: 'Lucida Sans','Lucida Sans Unicode',sans-serif;
+}
+
+.container{
+   width: 80%;
+   margin: 25px auto;
+   padding: 20px;
+   background: linear-gradient(#3C3F48, #1C1F28);
+   text-align: center;
+   color: lightgray;
+   border-radius: 8px;
+}
+
+.display{
+   height: 60px;
+   width: 100%;
+}
+
+.result{
+   height: 100%;
+   width: 100%;
+   border: 1px solid #FFFFFF52;
+   border-radius: 8px;
+   font-size: 40px;
+   padding: 0 15px;
+   box-sizing: border-box;
+   color: #282B34;
+   background-color: lightgray;
+   outline: none;
+}
+
+.buttons{
+   margin-top: 20px;
+   display: grid;
+   grid-template-columns: repeat(4, 1fr);
+   grid-gap: 5px;
+}
+
+button{
+   height: 45px;
+   font-size: 16px;
+   background: linear-gradient(#282B34, #333544);
+   border-radius: 4px;
+   border: none;
+   border: 1px solid #FFFFFF52;
+   color: whitesmoke;
+   transition:.5s;
+   font-weight: 500;
+}
+
+button:hover, button:active, button:focus,
+.deleteBtn,.plusBtn,.minusBtn, 
+.multiplicationBtn,.devideBtn,.equalBtn {
+   background: linear-gradient(to left,#C75C0E, #E7800A);
+}
+
+.clearBtn{
+   background: linear-gradient(#E71313, #FF1818);
+}
+
+.clearBtn:hover,.clearBtn:active,.clearBtn:focus{
+   background: #CE0101;
+}
+
+.rootBtn,.reminderBtn,.piBtn, 
+.rightBracket,.leftBracket,.doubleZerBtn,
+.dotBtn {
+   background: linear-gradient(#484E5C, #606777);
+}
+
+.equalBtn{
+   background: linear-gradient(#0CBE27, #17E536);
+   color: black;
+}
+
+.equalBtn:hover,.equalBtn:active,equalBtn:focus{
+   background: #009204;
+}
+
+.deleteBtn{
+   background: linear-gradient(#D4BF15, #FFE61D);
+   color: black;
+}
+
+.deleteBtn:hover,.deleteBtn:active,.deleteBtn:focus{
+   background: #F2C401;
+}
+
+p{
+   font-size: 13px;
+   text-align: center;
+}
+
+p a{
+   color: red;
+}
